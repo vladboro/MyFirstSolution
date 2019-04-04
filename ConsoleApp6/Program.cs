@@ -32,6 +32,9 @@ namespace ConsoleApp6
             Thread.Sleep(1000);
 
             Console.WriteLine("Main thread 3 sec... {0}, {1}", t2.Status, t3.Status);
+            Thread.Sleep(1000);
+
+            Console.WriteLine("Main thread 3 sec... {0}, {1}", t2.Status, t3.Status);
 
         }
 
