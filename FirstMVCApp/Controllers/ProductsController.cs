@@ -10,6 +10,7 @@ using FirstMVCApp;
 
 namespace FirstMVCApp.Controllers
 {
+    [Authorize(Users="vpupkin@mail.ru")]
     public class ProductsController : Controller
     {
         private DemoDB db = new DemoDB();

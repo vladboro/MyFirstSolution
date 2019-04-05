@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3870adba-31f8-41e4-bd23-2451ab1c1359" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/WCFApp/ProductInfo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ProductInfo3.xsd" MetadataType="Schema" ID="db36105f-096c-4a13-97a2-2d2d0b6223e7" SourceId="1" SourceUrl="http://trainer-vs/WCFApp/ProductInfo.svc?xsd=xsd0" />
+    <MetadataFile FileName="ProductInfo1.disco" MetadataType="Disco" ID="05bba604-95e4-43b4-9553-7dfb03f8331c" SourceId="1" SourceUrl="http://trainer-vs/WCFApp/ProductInfo.svc?disco" />
+    <MetadataFile FileName="ProductInfo31.xsd" MetadataType="Schema" ID="5f833210-8f0b-4025-b7d6-6f8549b89050" SourceId="1" SourceUrl="http://trainer-vs/WCFApp/ProductInfo.svc?xsd=xsd2" />
+    <MetadataFile FileName="ProductInfo32.xsd" MetadataType="Schema" ID="b2aeb596-dcf6-49d2-bfbf-7ba23056e0bc" SourceId="1" SourceUrl="http://trainer-vs/WCFApp/ProductInfo.svc?xsd=xsd1" />
+    <MetadataFile FileName="ProductInfo1.wsdl" MetadataType="Wsdl" ID="799efb94-f115-416c-aa44-113701507147" SourceId="1" SourceUrl="http://trainer-vs/WCFApp/ProductInfo.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

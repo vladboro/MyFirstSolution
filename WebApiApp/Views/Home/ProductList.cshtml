@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "ProductList";
+}
+
+<h2>ProductList</h2>
+<div>
+    <ul id="results"></ul>
+</div>
+
+@section scripts
+{
+    <script>
+        $().ready(function () {
+            $.get({
+                url: '/api/products',
+                method: 'GET',
+                success: function (data) {
+                    $(data).each(function (i, product) {
+                        $('#results').append('<li><a href="/api/products/' + product.Id + '">'
+                            + product.Name + '</a></li>');
+                    })
+                }
+            })
+        });
+    </script>
+}
